@@ -44,8 +44,26 @@ test {
     systemProperties(System.getProperties())
 }
 
-task form_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("form")
+task main_test(type: Test) {
+    useJUnitPlatform{
+        includeTags("main")
+    }
+}
+
+task debit_test(type: Test) {
+    useJUnitPlatform{
+        includeTags("debit")
+    }
+}
+
+task credit_test(type: Test) {
+    useJUnitPlatform{
+        includeTags("loans")
+    }
+}
+
+task savings_test(type: Test) {
+    useJUnitPlatform{
+        includeTags("savings")
     }
 }
