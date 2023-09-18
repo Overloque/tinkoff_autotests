@@ -9,11 +9,11 @@
 - [Тестовые сценарии](#clipboard-тестовые-сценарии)
 - [Сборка в Jenkins](#-сборка-в-jenkins)
 - [Команда для запуска](#rocket-команда-для-запуска)
-- [Allure отчет](#allure-отчет)
-- [Интеграция с Allure TestOps](#img-srcimageslogoalluretestopssvg-width50-height50-интеграция-с-allure-testops)
-- [Интеграция с Jira](#img-srcimageslogojirasvg-width50-height50-интеграция-с-jira)
-- [Уведомления в Telegram чат с ботом](#img-srcimageslogotelegramsvg-width50-height50-уведомления-в-telegram-чат-с-ботом)
-- [Видео запуска тестов в Selenoid](#img-srcimageslogoselenoidsvg-width50-height50-видео-запуска-тестов-в-selenoid)  
+- [Allure отчет](#-allure-отчет)
+- [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
+- [Интеграция с Jira](#-интеграция-с-jira)
+- [Уведомления в Telegram чат с ботом](#-уведомления-в-telegram-чат-с-ботом)
+- [Видео запуска тестов в Selenoid](#-видео-запуска-тестов-в-selenoid)  
 
 ---
 
