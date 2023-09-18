@@ -7,9 +7,9 @@
 
 - [Стек технологий](#computer-стек-технологий)  
 - [Тестовые сценарии](#clipboard-тестовые-сценарии)
-- [Сборка в Jenkins](#-Сборка-в-Jenkins)
+- [Сборка в Jenkins](#-сборка-в-jenkins)
 - [Команда для запуска](#rocket-команда-для-запуска)
-- [Allure отчет](#img-srcimageslogoalluresvg-width50-height50-allure-отчет)
+- [Allure отчет](#allure-отчет)
 - [Интеграция с Allure TestOps](#img-srcimageslogoalluretestopssvg-width50-height50-интеграция-с-allure-testops)
 - [Интеграция с Jira](#img-srcimageslogojirasvg-width50-height50-интеграция-с-jira)
 - [Уведомления в Telegram чат с ботом](#img-srcimageslogotelegramsvg-width50-height50-уведомления-в-telegram-чат-с-ботом)
