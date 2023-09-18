@@ -7,7 +7,7 @@
 
 - [Стек технологий](#computer-стек-технологий)  
 - [Тестовые сценарии](#clipboard-тестовые-сценарии)
-- [Сборка в Jenkins](#img-srcimageslogojenkinssvg-width50-height50a-сборка-в-jenkins)
+- [Сборка в Jenkins](#img-srcimageslogojenkinssvg-width50-height50-сборка-в-jenkins)
 - [Команда для запуска](#rocket-команда-для-запуска)
 - [Allure отчет](#img-srcimageslogoalluresvg-width50-height50-allure-отчет)
 - [Интеграция с Allure TestOps](#img-srcimageslogoalluretestopssvg-width50-height50-интеграция-с-allure-testops)
@@ -52,7 +52,7 @@
 
 ---
 
-## <img src="images/logo/Jenkins.svg" width="50" height="50"/> Сборка в Jenkins
+## <img src="images/logo/Jenkins.svg" width="7%"/> Сборка в Jenkins
 
 <p align="center">
 <img src="images/screenshots/JenkinsScreenshot.jpg" alt="Jenkins Build" width="1000" height="300">
