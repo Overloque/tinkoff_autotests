@@ -32,7 +32,10 @@ public class BaseTest {
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserSize = System.getProperty("browserSize", "2560x1440");
         Configuration.browserVersion = System.getProperty("browserVersion");
-        Configuration.remote = System.getProperty("selenoidBaseUrl", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        //Configuration.remote = System.getProperty("selenoidBaseUrl", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+
+        String selenoidUrl = System.getProperty("selenoidUrl", "selenoid.autotests.cloud");
+        Configuration.remote = "https://user1:1234@" + selenoidUrl + "/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         Map<String, Object> value = new HashMap<>();
