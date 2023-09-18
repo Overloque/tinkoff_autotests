@@ -5,19 +5,18 @@
 
 ## :notebook: Содержание:
 
----
-
 - [Стек технологий](#computer-стек-технологий)  
 - [Тестовые сценарии](#clipboard-тестовые-сценарии)
 - [Сборка в Jenkins](#img-srcimageslogojenkinssvg-width50-height50a-сборка-в-jenkins)
 - [Команда для запуска](#rocket-команда-для-запуска)
 - [Allure отчет](#img-srcimageslogoalluresvg-width50-height50-allure-отчет)
 - [Интеграция с Allure TestOps](#img-srcimageslogoalluretestopssvg-width50-height50-интеграция-с-allure-testops)
-- [Интеграция с Jira]()
-- [Уведомления в Telegram чат с ботом]()
-- [Видео запуска тестов в Selenoid]()  
+- [Интеграция с Jira](#img-srcimageslogojirasvg-width50-height50-интеграция-с-jira)
+- [Уведомления в Telegram чат с ботом](#img-srcimageslogotelegramsvg-width50-height50-уведомления-в-telegram-чат-с-ботом)
+- [Видео запуска тестов в Selenoid](#img-srcimageslogoselenoidsvg-width50-height50-видео-запуска-тестов-в-selenoid)  
 
 ---
+
 ## :computer: Стек технологий
 <p align="center">
 <a href="https://www.java.com/"><img src="images/logo/Java.svg" width="50" height="50"/></a>
@@ -34,11 +33,7 @@
 <a href="https://www.telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50"/></a>
 </p>
 
----
-
 ## :clipboard: Тестовые сценарии
-
----
 
 - :white_check_mark: Главная страница
     - :heavy_check_mark: Проверка появления списка подсказок в поисковой строке
@@ -52,11 +47,10 @@
 - :white_check_mark: Раздел "Вклады"
     - :heavy_check_mark: Проверка сокрытия сообщения при нажатии на чекбокс
     - :heavy_check_mark: Проверка отображения информации при наведении на тултип
+
 ---
 
 ## <img src="images/logo/Jenkins.svg" width="50" height="50"/> Сборка в Jenkins
-
----
 
 <p align="center">
 <img src="images/screenshots/JenkinsScreenshot.jpg" alt="Jenkins Build" width="1000" height="300">
@@ -83,8 +77,6 @@
 
 ## :rocket: Команда для запуска
 
----
-
 ```bash
 clean
 ${TASK}
@@ -97,8 +89,6 @@ ${TASK}
 ---
 
 ## <img src="images/logo/Allure.svg" width="50" height="50"/> Allure отчет
-
----
 
 ### Главная страница отчета
 
@@ -134,8 +124,6 @@ ${TASK}
 
 ## <img src="images/logo/AllureTestOps.svg" width="50" height="50"/> Интеграция с Allure TestOps
 
----
-
 ### Dashboard
 
 <p align="center">
@@ -158,8 +146,6 @@ ${TASK}
 
 ## <img src="images/logo/Jira.svg" width="50" height="50"/> Интеграция с Jira
 
----
-
 ### Задача в Jira
 
 <p align="center">
@@ -176,8 +162,6 @@ ${TASK}
 ---
 
 ## <img src="images/logo/Telegram.svg" width="50" height="50"/> Уведомления в Telegram чат с ботом
-
----
 
 ### Уведомление из переписки с чат ботом
 
