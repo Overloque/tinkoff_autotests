@@ -33,6 +33,8 @@
 <a href="https://www.telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50"/></a>
 </p>
 
+---
+
 ## :clipboard: Тестовые сценарии
 
 - :white_check_mark: Главная страница
