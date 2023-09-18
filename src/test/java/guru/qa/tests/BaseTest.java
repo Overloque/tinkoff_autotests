@@ -1,6 +1,7 @@
 package guru.qa.tests;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import guru.qa.helpers.Attach;
 import guru.qa.pages.CreditPage;
@@ -52,5 +53,7 @@ public class BaseTest {
         Attach.pageSource();
         Attach.browserConsoleLog();
         Attach.addVideo();
+
+        Selenide.closeWebDriver();
     }
 }

@@ -9,10 +9,10 @@
 
 - [Стек технологий](#computer-стек-технологий)  
 - [Тестовые сценарии](#clipboard-тестовые-сценарии)
-- [Сборка в Jenkins]()
-- [Запуск автотестов]()
-- [Allure отчет]()
-- [Интеграция с Allure TestOps]()
+- [Сборка в Jenkins](#img-srcimageslogojenkinssvg-width50-height50a-сборка-в-jenkins)
+- [Команда для запуска](#rocket-команда-для-запуска)
+- [Allure отчет](#img-srcimageslogoalluresvg-width50-height50-allure-отчет)
+- [Интеграция с Allure TestOps](#img-srcimageslogoalluretestopssvg-width50-height50-интеграция-с-allure-testops)
 - [Интеграция с Jira]()
 - [Уведомления в Telegram чат с ботом]()
 - [Видео запуска тестов в Selenoid]()  
@@ -53,3 +53,156 @@
     - :heavy_check_mark: Проверка сокрытия сообщения при нажатии на чекбокс
     - :heavy_check_mark: Проверка отображения информации при наведении на тултип
 ---
+
+## <img src="images/logo/Jenkins.svg" width="50" height="50"/> Сборка в Jenkins
+
+---
+
+<p align="center">
+<img src="images/screenshots/JenkinsScreenshot.jpg" alt="Jenkins Build" width="1000" height="300">
+</p>
+
+### Параметры сборки проекта
+
+| Параметр        | Назначение                               |
+|-----------------|------------------------------------------|
+| SELENOID_URL    | Удаленный сервер для запуска тестов      |
+| BROWSER         | Браузер для запуска                      |
+| BROWSER_VERSION | Версия браузера                          |
+| BROWSER_SIZE    | Разрешение экрана                        |
+| COMMENT         | Комментарий                              |
+| TASK            | Опция выбора запуска определённых тестов |
+
+### Запуск тестов с параметрами в **Jenkins**
+
+<p align="center">
+<img src="images/screenshots/JenkinsLaunch.jpg" alt="Jenkins Launch" width="1000" height="400">
+</p>
+
+---
+
+## :rocket: Команда для запуска
+
+---
+
+```bash
+clean
+${TASK}
+-Dbrowser=${BROWSER}
+-DbrowserSize=${BROWSER_SIZE}
+-DbrowserVersion=${BROWSER_VERSION}
+-DselenoidUrl=${SELENOID_LINK}
+```
+
+---
+
+## <img src="images/logo/Allure.svg" width="50" height="50"/> Allure отчет
+
+---
+
+### Главная страница отчета
+
+<p align="center">
+<img src="images/screenshots/Allure-report.jpg" alt="Allure report" width="1000" height="350">
+</p>
+
+### Тест-кейсы
+
+<p align="center">
+<img src="images/screenshots/Allure-testCase.jpg" alt="Test Case" width="1000" height="350">
+</p>
+
+#### Содержание тест-кейсов
+
+- :heavy_check_mark: Подробное описание шагов
+- :heavy_check_mark: Тег
+- :heavy_check_mark: Критичность теста
+- :heavy_check_mark: Автор
+- :heavy_check_mark: Ссылка на раздел сайта (для каждый тестов свой раздел)
+- :heavy_check_mark: Последний скриншот для каждого теста 
+- :heavy_check_mark: HTML разметка страницы
+- :heavy_check_mark: Логи браузера
+- :heavy_check_mark: Видео с прохождением теста
+
+### Графики
+
+<p align="center">
+<img src="images/screenshots/Allure-graph.jpg" alt="Allure-graph" width="1000" height="400">
+</p>
+
+---
+
+## <img src="images/logo/AllureTestOps.svg" width="50" height="50"/> Интеграция с Allure TestOps
+
+---
+
+### Dashboard
+
+<p align="center">
+<img src="images/screenshots/TestOps_dashboard.jpg" alt="TestOps dashboard" width="1000" height="400">
+</p>
+
+### Ручные и автоматизированные тест-кейсы
+
+<p align="center">
+<img src="images/screenshots/TestOps_testCases.jpg" alt="TestOps test cases" width="1000" height="400">
+</p>
+
+### Запуск автоматизированных тестов в **TestOps**
+
+<p align="center">
+<img src="images/screenshots/TestOps_launch.jpg" alt="TestOps launch" width="1000" height="400">
+</p>
+
+---
+
+## <img src="images/logo/Jira.svg" width="50" height="50"/> Интеграция с Jira
+
+---
+
+### Задача в Jira
+
+<p align="center">
+<img src="images/screenshots/Jira.jpg" alt="TestOps launch" width="1000" height="400">
+</p>
+
+#### Содержание задачи
+
+- :heavy_check_mark: Цель
+- :heavy_check_mark: Задачи для выполнения
+- :heavy_check_mark: Тест-кейсы из Allure TestOps
+- :heavy_check_mark: Результат прогона тестов в Allure TestOps
+
+---
+
+## <img src="images/logo/Telegram.svg" width="50" height="50"/> Уведомления в Telegram чат с ботом
+
+---
+
+### Уведомление из переписки с чат ботом
+
+<p align="center">
+<img src="images/screenshots/Telegram.jpg" alt="TestOps launch" width="500" height="400">
+</p>
+
+
+#### Содержание уведомления в Telegram
+
+- :heavy_check_mark: Окружение
+- :heavy_check_mark: Комментарий
+- :heavy_check_mark: Длительность прохождения тестов
+- :heavy_check_mark: Общее количество сценариев
+- :heavy_check_mark: Процент прохождения тестов
+- :heavy_check_mark: Ссылка на Allure отчет
+
+---
+
+## <img src="images/logo/Selenoid.svg" width="50" height="50"/> Видео запуска тестов в Selenoid
+
+
+
+
+
+
+
+
