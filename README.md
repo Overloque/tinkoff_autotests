@@ -146,7 +146,7 @@ ${TASK}
 
 ---
 
-## <img src="images/logo/Jira.svg" width="50" height="50"/> Интеграция с Jira
+## <img src="images/logo/Jira.svg" width="50" height="50"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-889)
 
 ### Задача в Jira
 
