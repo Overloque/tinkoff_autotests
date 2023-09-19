@@ -52,7 +52,7 @@
 
 ---
 
-## <img src="images/logo/Jenkins.svg" width="50" height="50"/> Сборка в Jenkins
+## <img src="images/logo/Jenkins.svg" width="50" height="50"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/tinkoff_autotests_kpoludnitsyn/)
 
 <p align="center">
 <img src="images/screenshots/JenkinsScreenshot.jpg" alt="Jenkins Build" width="1000" height="300">
@@ -90,7 +90,7 @@ ${TASK}
 
 ---
 
-## <img src="images/logo/Allure.svg" width="50" height="50"/> Allure отчет
+## <img src="images/logo/Allure.svg" width="50" height="50"/> [Allure](https://jenkins.autotests.cloud/job/tinkoff_autotests_kpoludnitsyn/11/allure/) отчет
 
 ### Главная страница отчета
 
