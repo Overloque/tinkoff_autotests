@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class SavingsPage {
-    SelenideElement
+    private final SelenideElement
             checkBoxText = $("[name='has_debit_card']"),
             messageBlockText = $("[data-field-name='has_debit_card']"),
             tooltip = $("[data-qa-type='uikit/tooltip']"),
@@ -36,6 +36,7 @@ public class SavingsPage {
 
         return this;
     }
+
     public SavingsPage checkMessageDisappear() {
         messageBlockText.$(byText("При открытии вклада бесплатно выпускаем дебетовую карту Tinkoff Black"))
                 .shouldNot(exist);

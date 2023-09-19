@@ -20,11 +20,8 @@ import java.util.Map;
 
 
 public class BaseTest {
-    MainPage mainPage = new MainPage();
-    DebitCardPage debitCardPage = new DebitCardPage();
-    CreditPage creditPage = new CreditPage();
-    SavingsPage savingsPage = new SavingsPage();
     TestDataVariables variables = new TestDataVariables();
+
     @BeforeAll
     static void beforeAll() {
         Configuration.baseUrl = "https://www.tinkoff.ru";

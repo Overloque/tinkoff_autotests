@@ -11,11 +11,11 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class CreditPage {
-    SelenideElement
+    private final SelenideElement
             creditGoalOptionsInput = $("[data-qa-type='uikit/select.dropdown']"),
             creditGoalWrapper = $("[data-qa-type='uikit/select.dropdown.list']");
 
-    ElementsCollection stepsInfo = $$("[role='contentinfo']");
+    private final ElementsCollection stepsInfo = $$("[role='contentinfo']");
 
     public CreditPage openPage() {
         open("/loans");

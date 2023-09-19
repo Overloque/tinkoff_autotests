@@ -9,11 +9,11 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
-    SelenideElement
+    private final SelenideElement
             searchInput = $("[data-qa-type='uikit/inputAutocomplete.value.input']"),
             autocompletePopover = $("[data-qa-type='uikit/popover.popoverBlock']");
 
-    ElementsCollection menuPanel = $$("[data-test='panel slides']");
+    private final ElementsCollection menuPanel = $$("[data-test='panel slides']");
 
     public MainPage openPage() {
         open("/");
@@ -33,6 +33,7 @@ public class MainPage {
 
         return this;
     }
+
     public MainPage checkTipsExist() {
         autocompletePopover.shouldBe(visible);
 

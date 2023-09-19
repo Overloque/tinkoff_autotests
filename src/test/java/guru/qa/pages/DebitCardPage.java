@@ -8,10 +8,10 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 public class DebitCardPage {
-    SelenideElement
+    private final SelenideElement
             title = $("h1[data-schema-path='title']");
 
-    ElementsCollection filterCards = $$("[data-qa-type='uikit/filterButton']");
+    private final ElementsCollection filterCards = $$("[data-qa-type='uikit/filterButton']");
 
     public DebitCardPage openPage() {
         open("/cards/debit-cards");
